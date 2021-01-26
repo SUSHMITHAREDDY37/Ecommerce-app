@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="com.example.android.aliexpress.MainActivity">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_alignParentRight="true"
+                app:srcCompat="@drawable/camera" />
+
+            <SearchView
+                android:id="@+id/searchview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/imageView" />
+
+        </RelativeLayout>
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/category" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="New User Zone"
+        android:textStyle="bold|italic"
+        android:textColor="#000000"/>
+
+        <HorizontalScrollView
+            android:id="@+id/progress_horizontal1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/nusrd1" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/nusrd2" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/nusrd3" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/nusrd4" />
+            </LinearLayout>
+
+        </HorizontalScrollView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Flash Deals"
+        android:layout_margin="10dp"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        />
+        <HorizontalScrollView
+            android:id="@+id/progress_horizontal2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/electonics" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/essentials" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/grocery" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/clothing" />
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:width="200dp"
+        android:text="Top Selection "
+        android:layout_margin="10dp"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="New for you"
+        android:paddingLeft="30dp"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        android:layout_marginRight="10dp" />
+</LinearLayout>
+
+               <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="10dp"
+                    app:srcCompat="@drawable/top" />
+
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="10dp"
+                    android:src="@drawable/nusrd5" />
+            </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:width="200dp"
+        android:text="Featured Brands "
+        android:layout_margin="10dp"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Stores You'll Love"
+        android:paddingLeft="30dp"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        android:layout_marginRight="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            app:srcCompat="@drawable/brand" />
+
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            app:srcCompat="@drawable/store" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
